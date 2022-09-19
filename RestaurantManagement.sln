@@ -37,13 +37,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestaurantManagement.Framew
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interface", "Interface", "{4071195D-2BDF-4E4A-858E-DE213D56D498}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantManagement.Appliation.CommandService", "src\Application\RestaurantManagement.Appliation.CommandService\RestaurantManagement.Appliation.CommandService.csproj", "{2172CB89-C94C-44BE-B7B0-1FC26913F1EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestaurantManagement.Appliation.CommandService", "src\Application\RestaurantManagement.Appliation.CommandService\RestaurantManagement.Appliation.CommandService.csproj", "{2172CB89-C94C-44BE-B7B0-1FC26913F1EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantManagement.Appliation.QueryService", "src\Application\RestaurantManagement.Appliation.QueryService\RestaurantManagement.Appliation.QueryService.csproj", "{013A9D7B-97C3-45DE-B077-1F63522A89D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestaurantManagement.Appliation.QueryService", "src\Application\RestaurantManagement.Appliation.QueryService\RestaurantManagement.Appliation.QueryService.csproj", "{013A9D7B-97C3-45DE-B077-1F63522A89D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantManagement.Facade.CommandService", "src\Interface\RestaurantManagement.Facade.CommandService\RestaurantManagement.Facade.CommandService.csproj", "{E1380AC6-D923-48E7-9B9D-1F980EA9570E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestaurantManagement.Facade.CommandService", "src\Interface\RestaurantManagement.Facade.CommandService\RestaurantManagement.Facade.CommandService.csproj", "{E1380AC6-D923-48E7-9B9D-1F980EA9570E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantManagement.Facade.QueryService", "src\Interface\RestaurantManagement.Facade.QueryService\RestaurantManagement.Facade.QueryService.csproj", "{F04DF61B-FAEB-4077-9CF0-8B00C2F0DDE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestaurantManagement.Facade.QueryService", "src\Interface\RestaurantManagement.Facade.QueryService\RestaurantManagement.Facade.QueryService.csproj", "{F04DF61B-FAEB-4077-9CF0-8B00C2F0DDE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantManagement.Config", "src\RestaurantManagement.Config\RestaurantManagement.Config\RestaurantManagement.Config.csproj", "{4043A4FD-B055-404A-8B0E-BBB7390AB771}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantManagement.Framework.Contract", "src\Framework\RestaurantManagement.Framework.Contract\RestaurantManagement.Framework.Contract.csproj", "{DE50784D-FAA4-49E3-BD23-A9BB7A6F39B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantManagement.Appliation.CommandService.Contract", "src\Application\RestaurantManagement.Appliation.CommandService.Contract\RestaurantManagement.Appliation.CommandService.Contract.csproj", "{664A777E-A9CF-4C0F-A1D3-41D9B63CE8B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +105,18 @@ Global
 		{F04DF61B-FAEB-4077-9CF0-8B00C2F0DDE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F04DF61B-FAEB-4077-9CF0-8B00C2F0DDE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F04DF61B-FAEB-4077-9CF0-8B00C2F0DDE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4043A4FD-B055-404A-8B0E-BBB7390AB771}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4043A4FD-B055-404A-8B0E-BBB7390AB771}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4043A4FD-B055-404A-8B0E-BBB7390AB771}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4043A4FD-B055-404A-8B0E-BBB7390AB771}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE50784D-FAA4-49E3-BD23-A9BB7A6F39B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE50784D-FAA4-49E3-BD23-A9BB7A6F39B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE50784D-FAA4-49E3-BD23-A9BB7A6F39B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE50784D-FAA4-49E3-BD23-A9BB7A6F39B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{664A777E-A9CF-4C0F-A1D3-41D9B63CE8B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{664A777E-A9CF-4C0F-A1D3-41D9B63CE8B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{664A777E-A9CF-4C0F-A1D3-41D9B63CE8B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{664A777E-A9CF-4C0F-A1D3-41D9B63CE8B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -123,6 +141,9 @@ Global
 		{013A9D7B-97C3-45DE-B077-1F63522A89D1} = {1C12916E-0EE2-4095-BB58-0538B16C6C07}
 		{E1380AC6-D923-48E7-9B9D-1F980EA9570E} = {4071195D-2BDF-4E4A-858E-DE213D56D498}
 		{F04DF61B-FAEB-4077-9CF0-8B00C2F0DDE7} = {4071195D-2BDF-4E4A-858E-DE213D56D498}
+		{4043A4FD-B055-404A-8B0E-BBB7390AB771} = {F8D256EF-D409-4F59-9417-A11EB40B4684}
+		{DE50784D-FAA4-49E3-BD23-A9BB7A6F39B3} = {6FD76E07-B990-4A90-9251-A3466CFF95F5}
+		{664A777E-A9CF-4C0F-A1D3-41D9B63CE8B7} = {1C12916E-0EE2-4095-BB58-0538B16C6C07}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6C4B58A7-8F1C-4802-9249-F8CFC8D2F029}

@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Framework\RestaurantManagement.Framework.Contract\RestaurantManagement.Framework.Contract.csproj" />
+  </ItemGroup>
+
 </Project>
